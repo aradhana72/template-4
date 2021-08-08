@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105315795-1');
+    </script>
+
+    <meta charset="utf-8" />
+    <title>Rahul Jain ― Product Designer</title>
+
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Rahul Jain" />
+    <meta name="description" content="Product Designer based in Los Angeles, currently designing enterprise software at Google." />
+    <meta name="keywords" content="rahul jain, rahul jain ux, rahul jain product designer, rahul jain portfolio, rahul jain iupui, rahul jain designer, rahul jain los angeles, rahul jain google">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Rahul Jain ― Product Designer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rahuljain.co/index.html" />
+    <meta property="og:image" content="assets/img/profile.jpg" />
+    <meta property="og:description" content="Product Designer based in Los Angeles, currently designing enterprise software at Google." />
+    <meta property="og:site_name" content="Rahul Jain" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+
+</head>
+<style media="screen">
+@gray-darker:               #444444;
+@gray-dark:                 #696969;
+@gray:                      #999999;
+@gray-light:                #cccccc;
+@gray-lighter:              #ececec;
+@gray-lightest:             lighten(@gray-lighter,4%);
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+background-color: #f0f0f0;
+}
+
+body {
+color: @gray;
+font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-moz-font-feature-settings: "liga" on;
+}
+
+img {
+height: auto;
+max-width: 50%;
+vertical-align: middle;
+}
+
+.btn {
+background-color: white;
+border: 1px solid @gray-light;
+//border-radius: 1rem;
+color: @gray-dark;
+padding: 0.5rem;
+text-transform: lowercase;
+}
+
+.btn--block {
+display: block;
+width: 100%;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.cards__item {
+display: flex;
+padding: 1rem;
+@media(min-width: 40rem) {
+  width: 50%;
+}
+@media(min-width: 56rem) {
+  width: 33.3333%;
+}
+}
+
+.card {
+background-color: white;
+border-radius: 0.25rem;
+box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+display: flex;
+flex-direction: column;
+overflow: hidden;
+&:hover {
+  .card__image {
+    filter: contrast(100%);
+  }
+}
+}
+
+.card__content {
+display: flex;
+flex: 1 1 auto;
+flex-direction: column;
+padding: 1rem;
+}
+
+.card__image {
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+filter: contrast(70%);
+//filter: saturate(180%);
+overflow: hidden;
+position: relative;
+transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+&::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; // 16:9 aspect ratio
+}
+@media(min-width: 40rem) {
+  &::before {
+    padding-top: 66.6%; // 3:2 aspect ratio
+  }
+}
+}
+
+.card__image--flowers {
+background-image: url(https://unsplash.it/800/600?image=82);
+}
+
+.card__image--river {
+background-image: url(https://unsplash.it/800/600?image=11);
+}
+
+.card__image--record {
+background-image: url(https://unsplash.it/800/600?image=39);
+}
+
+.card__image--fence {
+background-image: url(https://unsplash.it/800/600?image=59);
+}
+
+.card__title {
+color: @gray-dark;
+font-size: 1.25rem;
+font-weight: 300;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.card__text {
+flex: 1 1 auto;
+font-size: 0.875rem;
+line-height: 1.5;
+margin-bottom: 1.25rem;
+}
+
+
+</style>
+<body class="preload">
+    <div class="loading animated">
+        <div class="progress-bar"><span></span></div>
+    </div>
+
+
+    <!-- Top -->
+    <nav class="navbar navbar--white navbar-change">
+        <div class="ml-sm-auto">
+            <button class="hamburger zoom-cursor" type="button">
+                <span class="hamburger__inner"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- /Top -->
+
+    <!-- Intro -->
+    <header class="header-page header-fullscreen overlay">
+        <div class="wrap-bg">
+            <figure class="js-image jarallax reveal">
+                <img class="jarallax-img cover" src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080" alt="" />
+            </figure>
+        </div>
+        <!-- Title -->
+        <div class="container flex-center-end js-opacity">
+            <div class="flex-center">
+                <div class="flex-center__inner">
+                    <h1 class="title title--display js-lines-l">Hi, I'm <span class="text--red">Rahul Jain</span> ― Product Designer based in Los Angeles, currently designing enterprise software at Google.</h1>
+                    <div class="js-lines">
+                        <div><a class="btn-link p-2" href="about.html">My Story<i class="circle circle--right circle--white icon-right-open"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+    </header>
+    <!-- /Intro -->
+
+    <!-- Work -->
+    <div id="start" class="container mt--8">
+
+
+
+<ul class="cards">
+<li class="cards__item">
+  <div class="card">
+    <div class="card__image card__image--fence">
+      <img src="https://wallpapercave.com/wp/wp1836700.jpg" alt="">
+    </div>
+    <div class="card__content">
+      <div class="card__title">Flex</div>
+      <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+      <button class="btn btn--block card__btn">Button</button>
+    </div>
+  </div>
+</li>
+<li class="cards__item">
+  <div class="card">
+    <div class="card__image card__image--fence">
+      <img src="https://wallpapercave.com/wp/wp1836700.jpg" alt="">
+    </div>
+    <div class="card__content">
+      <div class="card__title">Flex</div>
+      <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+      <button class="btn btn--block card__btn">Button</button>
+    </div>
+  </div>
+</li>
+<li class="cards__item">
+  <div class="card">
+    <div class="card__image card__image--fence">
+      <img src="https://wallpapercave.com/wp/wp1836700.jpg" alt="">
+    </div>
+    <div class="card__content">
+      <div class="card__title">Flex</div>
+      <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+      <button class="btn btn--block card__btn">Button</button>
+    </div>
+  </div>
+</li>
+<li class="cards__item">
+  <div class="card">
+    <div class="card__image card__image--fence">
+      <img src="https://wallpapercave.com/wp/wp1836700.jpg" alt="">
+    </div>
+    <div class="card__content">
+      <div class="card__title">Flex</div>
+      <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+      <button class="btn btn--block card__btn">Button</button>
+    </div>
+  </div>
+</li>
+</ul>
+
+    </div>
+
+
+    <!-- /Footer -->
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="menu-inner">
+            <ul class="menu-list">
+                <li><a class="menu-list__item" href="index.html"><span>Work</span></a></li>
+                <li><a class="menu-list__item" href="about.html" target="_blank"><span>About</span></a></li>
+                <li><a class="menu-list__item" href="https://medium.com/@jain180" target="_blank"><span>Writing</span></a></li>
+                <li><a class="menu-list__item" href="old/index.html" target="_blank"><span>Old Site</span></a></li>
+            </ul>
+        </div>
+        <div class="social social--white">
+            <a class="social__link" href="https://twitter.com/rahul_jain180" target="_blank">Twitter</a>
+            <a class="social__link" href="https://www.instagram.com/rahuljain180/" target="_blank">Instagram</a>
+            <a class="social__link" href="https://www.linkedin.com/in/rahul-jain-5060974a/" target="_blank">LinkedIn</a>
+            <a class="social__link" href="https://unsplash.com/@jain180" target="_blank">Unsplash</a>
+            <a class="social__link" href="https://medium.com/@jain180" target="_blank">Medium</a>
+        </div>
+    </div>
+    <div class="ef-background"></div>
+    <!-- /Menu -->
+
+    <div class="cursor"></div>
+
+    <!-- JavaScripts -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/common.js"></script>
+
+    <!-- Start of StatCounter for Default Guide -->
+    <script type="text/javascript">
+        var sc_project = 11628552;
+        var sc_invisible = 1;
+        var sc_security = "d88c3762";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
+Analytics"></a></div>
+    </noscript>
+    <!-- End -->
+
+</body>
+
+</html>
